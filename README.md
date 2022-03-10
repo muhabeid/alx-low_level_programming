@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C programming
+Will update this file with project description.
