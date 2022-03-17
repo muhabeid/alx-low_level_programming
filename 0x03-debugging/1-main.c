@@ -1,4 +1,4 @@
-#include "main.h"
+#include "std.io"
 
 /**
  * main - causes an infinte lop 
