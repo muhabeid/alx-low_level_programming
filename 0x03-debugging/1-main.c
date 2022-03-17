@@ -1,23 +1,24 @@
-#include <std.io>
+#include <stdio.h>
 
 /**
- * main - causes an infinte lop 
+ * main - causes an infinite loop
  * Return: 0
  */
+
 int main(void)
 {
-  int i;
-  printf("Infinte loop incoming :(\n")
-  i = 0;
+	int i;
 
-  /** while (i < 10)
-   * {
-   * putchar(i);
-   * }
-  */ 
-   
-   printf("Infinite loop avoided! \\o/\n");
+	printf("Infinite loop incoming :(\n");
 
-   return(0);
+	i = 0;
 
+	/*while (i < 10)*/
+	/*{*/
+	/*putchar(i);*/
+	/*}*/
+
+	printf("Infinite loop avoided! \\o/\n");
+
+	return (0);
 }
