@@ -6,6 +6,7 @@
  * @copyright Copyright (c) 2022
  */
 #include <main.h>
+#include <stdio.h>
 /**
  * @brief - _strpbrk - Searches a string for any of a set of bytes.
  * @s: The string to be searched.
@@ -16,16 +17,19 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-  int index;
+	int i, j;
 
-  while (*s)
-  {
-    for (index = 0; accept[index]; index++)
-    {
-      if (*s == accept[index])
-        return (s);
-    }
-    s++;
-  }
-  return ('\0');
+	for (i = 0; *s != '\0'; i++)
+	{
+		for (j = 0; accept[j] != '\0'; j++)
+		{
+			if (*s == accept[j])
+			{
+				return (s);
+			}
+		}
+		s++;
+	}
+
+	return (NULL);
 }
