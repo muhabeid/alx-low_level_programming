@@ -1,7 +1,7 @@
 /**
  * @file 0-malloc_checked.c
  * @author muhabeid
- * @brief 
+ * @brief - function that allocates memory using malloc.
  * @version 0.1
  * @date 2022-04-07
  * 
