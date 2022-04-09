@@ -1,1 +1,1 @@
-[Malloc}(https://blog.akshayraichur.com/how-malloc-works-in-c)
+[Malloc](https://blog.akshayraichur.com/how-malloc-works-in-c)
