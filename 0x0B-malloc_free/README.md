@@ -1,1 +1,1 @@
-Malloc is a memory allocator but you have to be specific with the actual storage you want or its going to allocate any memory.
+[Malloc](https://blog.akshayraichur.com/how-malloc-works-in-c)
