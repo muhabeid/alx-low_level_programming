@@ -14,7 +14,7 @@
    * #ifndef _FILE_NAME_H_
    * #define _FILE_NAME_H_
    * 
-   * Write code here
+   * Write code here (#define [identifier name] [value])
    * 
    * #endif // #ifndef _FILE_NAME_H
    */
