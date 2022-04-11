@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#ifndef PI
-#define PI
+#ifndef _PI_H_
+#define _PI_H_
 
 #define PI 3.14159265359
 
