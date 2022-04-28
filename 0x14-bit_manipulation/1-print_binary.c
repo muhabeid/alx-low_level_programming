@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_binary - prints the binary equivalent of a decimal number
